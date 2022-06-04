@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+li {
+  list-style: none;
+}
+h1 {
+  text-align: center;
+}
+button {
+  color: aliceblue;
+  font-weight: bolder;
+  padding: 10px 25px;
+  background: transparent;
+  border: 2px solid aqua;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+button:hover {
+  border-color: pink;
+  box-shadow: 0 0.9em 0.9em -0.4em white;
+  transform: translateY(-0.5em);
+}
+.one {
+  margin: 0 auto;
+  margin-top: 2em;
+  width: 70%;
+  font-family: cursive;
+
+  /* dxfg */
+
+  padding: 10px 25px;
+  background: transparent;
+
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+  border-color: pink;
+  box-shadow: 0 0.9em 0.9em -0.4em white;
+  transform: translateY(-0.5em);
+}
+.two {
+  padding: 10px 25px;
+  background: transparent;
+  margin: 2em;
+
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+  border-color: pink;
+  box-shadow: 0 0.9em 0.9em -0.4em white;
+  transform: translateY(-0.5em);
+}
